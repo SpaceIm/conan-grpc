@@ -1,0 +1,8 @@
+sources:
+  "1.43.0":
+    url: "https://github.com/grpc/grpc/archive/refs/tags/v1.43.0.tar.gz"
+    sha256: "9647220c699cea4dafa92ec0917c25c7812be51a18143af047e20f3fb05adddc"
+patches:
+  "1.43.0":
+    - patch_file: "patches/v1.43.x/001-disable-cppstd-override.patch"
+      base_path: "source_subfolder"
